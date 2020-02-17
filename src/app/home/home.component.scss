@@ -1,0 +1,131 @@
+@import "../../styles-variables.scss";
+.kc-heading {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.kc-para {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  margin-bottom: 25px;
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.kc-home {
+  background-image: url(../../assets/images/home-background.jpg);
+  background-size: cover;
+  height: 830px;
+}
+@media(max-width: map-get($grid-breakpoints , lg)) {
+  .kc-heading {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  .kc-home {
+    background-size: cover;
+    height: 886px;
+    padding-bottom: 0px;
+  }
+  .kc-para {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+
+@media(max-width: map-get($grid-breakpoints , md)) {
+  .kc-heading {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  .kc-home {
+    background-size: cover;
+    height: 1024px;
+    background-image: url(../../assets/images/home-background.jpg);
+  }
+  .kc-para {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 14px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+
+@media(max-width: map-get($grid-breakpoints , sm)) {
+  .kc-heading {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  .kc-home {
+    background-size: cover;
+    height: 1024px;
+    background-image: url(../../assets/images/home-background.jpg);
+  }
+  .kc-para {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 14px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+@media(max-width: 430px) {
+  .kc-heading {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .kc-home {
+    background-size: cover;
+    height: 1024px;
+    background-image: url(../../assets/images/home-background.jpg);
+  }
+  .kc-para {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}

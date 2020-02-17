@@ -1,0 +1,88 @@
+.card {
+  font-size: xx-large;
+  font-weight: 520;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.page {
+  background-size: cover;
+  width: 100%;
+  display: inline-block;
+  background-image: url(../../assets/images/contact-background.jpg);
+  height: 768px;
+}
+.contact-num{
+  font-size: 16px;
+  padding: 15px;
+  margin: 0px;
+}
+.contact-mail{
+  font-size: 17px;
+  padding: 15px;
+  margin: 0px;
+}
+.indent{
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  flex-grow: 1;
+}
+
+/* only for demo not required */
+.box {
+    border:1px #666 solid;
+    height: 100%;
+}
+
+.row.display-flex [class*='col-'] {
+    background-color: #cceeee;
+}
+
+@media (max-width: 576px) {
+  .page {
+    background-size: cover;
+    width: 100%;
+    display: inline-block;
+    background-image: url(../../assets/images/contact-background-mobile.jpg);
+    height: 1200px;
+  }
+  .contact-num{
+   font-size: 17px;
+  }
+  .contact-mail{
+    font-size: 17px;
+  }
+  .indent{
+  padding-top: 15px;
+  padding-left: 0px;
+  }
+}
+@media(max-width:768px){
+  .contact-num{
+    font-size: 17px;
+  }
+  .contact-mail{
+    font-size: 17px;
+  }
+  .indent{
+  padding-top: 15px;
+  padding-left: 0px;
+  }
+}
+@media(width:1024px){
+  .contact-num{
+    font-size: 17px;
+  }
+  .contact-mail{
+    font-size: 17px;
+  }
+  .indent{
+  padding-top: 15px;
+  padding-left: 0px;
+  }
+}

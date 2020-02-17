@@ -1,0 +1,52 @@
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@import '~@angular/material/theming';
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$kelvin-marketing-primary: mat-palette($mat-indigo);
+$kelvin-marketing-accent: mat-palette($mat-pink, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$kelvin-marketing-warn: mat-palette($mat-red);
+
+// Create the theme object (a Sass map containing all of the palettes).
+$kelvin-marketing-theme: mat-light-theme($kelvin-marketing-primary, $kelvin-marketing-accent, $kelvin-marketing-warn);
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include angular-material-theme($kelvin-marketing-theme);
+
+/* You can add global styles to this file, and also import other style files */
+@font-face{
+    font-family: "Segoe UI semilight";
+    src: url("../../kelvin-marketing/src/assets/segoeuisl.ttf");
+}
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+@import  "../../kelvin-marketing/src/styles-variables.scss";
+@import "../../kelvin-marketing/src/styles-variables.scss";
+
+body{
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 0px;
+}
+
+@media(max-width: map-get($grid-breakpoints , md)) {
+    body{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+}
+html, body { height: 100%; }
+

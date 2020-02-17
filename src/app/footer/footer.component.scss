@@ -1,0 +1,76 @@
+@import "../../styles-variables.scss";
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(59, 59, 59);
+  border-top: 5px solid rgba(232, 131, 59, 1);
+}
+img {
+  width: 35px;
+  height: 35px;
+  padding: 3px;
+  margin: 0px;
+}
+li {
+  float: left;
+}
+.id {
+  margin: 0px;
+  padding: 9px 0px;
+  display: inline;
+  text-align: left;
+  align-items: center;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 9px 4px;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  align-items: center;
+}
+li a:hover {
+  background-color: transparent;
+}
+li:last-child {
+  border-right: none;
+  float:right;
+  margin-right: 5px;
+}
+.insta-logo {
+  padding: 0px;
+  list-style-type: none;
+}
+
+.terms {
+  float: right;
+  list-style-type: none;
+}
+.privacy {
+  float: right;
+  list-style-type: none;
+}
+
+
+@media(max-width: map-get($grid-breakpoints , md)) {
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 9px 4px;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  align-items: center;
+}
+}

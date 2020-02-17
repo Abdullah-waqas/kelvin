@@ -1,0 +1,230 @@
+@import "../../styles-variables.scss";
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.kc-heading {
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.kc-para {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: justify;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.kc-subheading{
+  font-size: 16px;
+  font-weight: 530;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+}
+.kc-information {
+  background-image: url(../../assets/images/information-background.jpg);
+  background-size: auto auto;
+  height: 4100px;
+}
+
+.card{
+  border: 6px solid rgba(232, 131, 59, 0.8);
+  background: rgba(255, 255, 255, 0.8);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500; 
+  
+}
+
+.expand{
+  display:inline;
+  height: 15%;
+  width: 5%;
+  float: right;
+}
+
+p{
+  margin-bottom: 0px;
+}
+
+
+@media(max-width: map-get($grid-breakpoints , lg)) {
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .kc-heading {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  .kc-information {
+    background-size: auto auto;
+    height: 4100px;
+    padding-bottom: 0px;
+  }
+  .kc-para {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .kc-subheading {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 530;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.expand{
+  display:inline;
+  height: 15%;
+  width: 5%;
+  float: right;
+}
+
+p{
+  margin-bottom: 0px;
+}
+
+.card{
+  border: 6px solid rgba(232, 131, 59, 0.8);
+  background: rgba(255, 255, 255, 0.8);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500; 
+  
+}
+}
+@media(max-width: map-get($grid-breakpoints , md)) {
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .kc-heading {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .kc-information {
+    background-size: auto auto;
+    height: 4560px;
+    padding-bottom: 0px;
+  }
+  .kc-para {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .kc-subheading {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 530;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.expand{
+  display:inline;
+  height: 15%;
+  width: 5%;
+  float: right;
+}
+
+p{
+  margin-bottom: 0px;
+}
+
+.card{
+  border: 6px solid rgba(232, 131, 59, 0.8);
+  background: rgba(255, 255, 255, 0.8);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500; 
+  
+}
+}
+@media(max-width: map-get($grid-breakpoints , sm)) {
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .kc-heading {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .kc-information {
+    background-size: auto auto;
+    height: 4280px;
+    padding-bottom: 0px;
+  }
+  .kc-para {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 14px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .kc-subheading {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 530;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.expand{
+  display:inline;
+  height: 15%;
+  width: 5%;
+  padding-top: 5px;
+  float: right;
+}
+
+p{
+  margin-bottom: 0px;
+}
+
+.card{
+  border: 6px solid rgba(232, 131, 59, 0.8);
+  background: rgba(255, 255, 255, 0.8);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500; 
+  
+}
+}

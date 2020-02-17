@@ -1,0 +1,65 @@
+<div class="page">
+<div class="container">
+  <div class="row justify-content-center mr-xl-2 ml-xl-2">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-2 mb-2">
+      <app-card>
+          <img src="../../assets/images/{{  pricingList[0].icon }}" alt="" />
+          <div class="pricing-heading0">
+            {{  pricingList[0].heading }}
+          </div>
+          <div>
+          <p class="pricing-text0">{{  pricingList[0].text }}</p>
+          <li>
+             <a href ="../../assets/images/Kelvin_Consultants_Residential_Pricing.pdf" download>Download Residential Pricing</a>
+          </li>
+        </div>
+      </app-card>
+    </div>
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-2 mb-2">
+  <app-card>
+   
+    <img src="../../assets/images/{{  pricingList[1].icon }}" alt="" />
+    <div class="pricing-heading1">
+      {{  pricingList[1].heading }}
+    </div>
+    <div>
+    <p  class="pricing-text1">{{  pricingList[1].text }}</p>
+  </div>
+  <li>
+    <a routerLink="/contact">Register for free early access</a>
+  </li>
+</app-card>
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-2 mb-2">
+<app-card>
+   
+  <img src="../../assets/images/{{  pricingList[2].icon }}" alt="" />
+  <div class="pricing-heading2">
+    {{  pricingList[2].heading }}
+  </div>
+  <div>
+  <p class="pricing-text2">{{  pricingList[2].text }}</p>
+</div>
+  <li>
+    <a routerLink="/contact">Send plans for quote</a>
+  </li>
+</app-card>
+</div>
+</div>
+
+<div class="row justify-content-center mr-xl-2 ml-xl-2">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-2 mt-xl-4 mt-lg-4">
+  <app-card>
+      <div class="content-heading">
+        {{ content.heading }}
+      </div>
+      <div class="content-text">
+      <p>{{ content.text }}</p>
+    </div>
+  </app-card>
+</div>
+</div>
+  </div>
+
+</div>

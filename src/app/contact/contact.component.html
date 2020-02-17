@@ -1,0 +1,28 @@
+<meta name="robots" content="noindex">
+<div class="page">
+  <div class ="indent">
+    <div class = "container-fluid">
+      <div class = "row flex-xl-row justify-content-md-start justify-content-lg-start justify-content-xl-start justify-content-sm-center">
+        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-5 col-xl-4 mt-2 ml-2 mr-2">
+          <app-card>
+              <p class="contact-num">
+                <mat-slide-toggle [(ngModel)] = "human" (ngModelChange)="change()"><b>{{flip}}</b></mat-slide-toggle><br/>
+                For inquiries or to send plans for quotation, please contact:
+                <br/><br/>
+                {{nameDavid}}
+                <br/>
+                {{mbile}}
+                <br/>
+                 <a href ="{{quotationDavid}}">{{quotationDavidDisplay}}</a>
+                <br/><br/>
+                To register for <b>Kelvin App </b>early access, please contact the team: 
+                <br/>
+                <a href ="{{display}}">{{appTeam}}</a>
+                <br/>
+                </p>
+          </app-card>
+        </div>
+      </div>
+    </div>
+</div>
+
