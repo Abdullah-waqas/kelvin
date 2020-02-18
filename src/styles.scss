@@ -29,11 +29,11 @@ $kelvin-marketing-theme: mat-light-theme($kelvin-marketing-primary, $kelvin-mark
 /* You can add global styles to this file, and also import other style files */
 @font-face{
     font-family: "Segoe UI semilight";
-    src: url("../../kelvin-marketing/src/assets/segoeuisl.ttf");
+    src: url("./assets/segoeuisl.ttf");
 }
 @import "../node_modules/bootstrap/dist/css/bootstrap.css";
-@import  "../../kelvin-marketing/src/styles-variables.scss";
-@import "../../kelvin-marketing/src/styles-variables.scss";
+@import  "./styles-variables.scss";
+@import "./styles-variables.scss";
 
 body{
     margin-left: 110px;
